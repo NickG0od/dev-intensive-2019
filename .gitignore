@@ -1,5 +1,7 @@
 # Built application files
-build/
+*.apk
+*.ap_
+*.aab
 
 # Files for the ART/Dalvik VM
 *.dex
@@ -38,6 +40,13 @@ google-services.json
 
 # Version control
 vcs.xml
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint/reports/
 
 1
 Downloading
